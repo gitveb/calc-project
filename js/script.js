@@ -1,10 +1,12 @@
 'use strict'
 
-const title = document.getElementsByTagName('h1');
-console.log(title[0])
+const title = document.getElementsByTagName('h1')[0];
+console.log(title)
 
-const btn = document.getElementsByClassName('handler_btn');
-console.log(btn)
+const btn1 = document.getElementsByClassName('handler_btn')[0];
+console.log(btn1)
+const btn2 = document.getElementsByClassName('handler_btn')[1];
+console.log(btn2)
 
 const plus = document.querySelector('.screen-btn');
 console.log(plus)
@@ -19,10 +21,17 @@ console.log(range)
 const rangeValue = document.querySelector('.rollback > div > .range-value')
 console.log(rangeValue)
 
-const totalInput = document.getElementsByClassName('total-input');
-for (let element of totalInput) {
-	console.log(element)
-}
+const totalInput1 = document.getElementsByClassName('total-input')[0];
+console.log(totalInput1)
+const totalInput2 = document.getElementsByClassName('total-input')[1];
+console.log(totalInput2)
+const totalInput3 = document.getElementsByClassName('total-input')[2];
+console.log(totalInput3)
+const totalInput4 = document.getElementsByClassName('total-input')[3];
+console.log(totalInput4)
+const totalInput5 = document.getElementsByClassName('total-input')[4];
+console.log(totalInput5)
+
 
 let screen = document.querySelectorAll('.screen');
 console.log(screen)
